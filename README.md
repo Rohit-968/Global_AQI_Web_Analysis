@@ -192,6 +192,10 @@ LSTM was selected as the baseline given the sequential nature of pollutant data,
 
 All three models were trained on the identical preprocessed dataset using early stopping to prevent overfitting. The Transformer was tuned to two encoder layers, 64 units per layer, and a learning rate of 0.001, achieving the best generalization of the three architectures. The final model, along with its label encoders and feature scaler, was serialized and deployed in a Streamlit application supporting real-time AQI prediction with visual diagnostics (predicted-vs-actual scatter plots and attention-based feature importance).
 
+<img width="1125" height="822" alt="Streamlit App deployement" src="https://github.com/user-attachments/assets/d889eec4-070d-4047-a77a-7291f2de3f27" />
+<img width="1020" height="630" alt="Streamlit App deployement(2)" src="https://github.com/user-attachments/assets/6420422a-7573-403c-9dbb-dd00c484eb4e" />
+
+
 ## Model Performance
 
 | Model | Test MSE | R² Score |
